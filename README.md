@@ -14,7 +14,7 @@ Using machine learning and ball-by-ball IPL data, the app gives **real-time win/
 
 ## 📸 App Screenshot
 
-![IPL Predictor App UI](IPL Predictor App SS.png)
+<img src="IPL Predictor App SS.png" alt="IPL Predictor App UI" width="800"/>
 
 ---
 
