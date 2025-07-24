@@ -11,14 +11,17 @@ pipe = pickle.load(open("Final_Pipeline.pkl", "rb"))
 
 # Teams & Logos
 team_logos = {
-    'Chennai Super Kings': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\CSK.png',
-    'Delhi Capitals': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\DC.jpeg',
-    'Kings XI Punjab': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\KXIP.png',
-    'Kolkata Knight Riders': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\KKR.jpeg',
-    'Mumbai Indians': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\MI.jpeg',
-    'Rajasthan Royals': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\RR.png',
-    'Royal Challengers Bangalore': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\RCB.jpeg',
-    'Sunrisers Hyderabad': r'C:\Users\shail\OneDrive\Shailesh\Personal\Personal Learning\Sports Analyst Projects\IPL Win Probability Predictor\Logos\SRH.jpeg',
+    team_logos = {
+    'Chennai Super Kings': 'Logos/CSK.png',
+    'Delhi Capitals': 'Logos/DC.jpeg',
+    'Kings XI Punjab': 'Logos/KXIP.png',
+    'Kolkata Knight Riders': 'Logos/KKR.jpeg',
+    'Mumbai Indians': 'Logos/MI.jpeg',
+    'Rajasthan Royals': 'Logos/RR.png',
+    'Royal Challengers Bangalore': 'Logos/RCB.jpeg',
+    'Sunrisers Hyderabad': 'Logos/SRH.jpeg'
+}
+
 }
 
 teams = list(team_logos.keys())
