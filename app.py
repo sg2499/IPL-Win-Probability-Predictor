@@ -10,8 +10,8 @@ st.set_page_config(page_title="IPL Win Predictor", layout="wide", page_icon="üè
 pipe = pickle.load(open("Final_Pipeline.pkl", "rb"))
 
 # Teams & Logos
+# Teams & Logos (Relative Paths for Cloud Compatibility)
 team_logos = {
-    team_logos = {
     'Chennai Super Kings': 'Logos/CSK.png',
     'Delhi Capitals': 'Logos/DC.jpeg',
     'Kings XI Punjab': 'Logos/KXIP.png',
@@ -20,8 +20,6 @@ team_logos = {
     'Rajasthan Royals': 'Logos/RR.png',
     'Royal Challengers Bangalore': 'Logos/RCB.jpeg',
     'Sunrisers Hyderabad': 'Logos/SRH.jpeg'
-}
-
 }
 
 teams = list(team_logos.keys())
