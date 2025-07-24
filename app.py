@@ -7,7 +7,7 @@ import base64
 st.set_page_config(page_title="IPL Win Predictor", layout="wide", page_icon="🏏")
 
 # Load model
-pipe = pickle.load(open("Pipeline.pkl", "rb"))
+pipe = pickle.load(open("Final_Pipeline.pkl", "rb"))
 
 # Teams & Logos
 team_logos = {
