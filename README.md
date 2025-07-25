@@ -142,7 +142,12 @@ ipykernel
 seaborn
 matplotlib
 ```
+---
 
+🌐 Live Demo
+You're welcome to explore the app by visiting the link provided below.
+
+👉 https://ipl-win-probability-predictor-7wvlmiyo5engestud32bnz.streamlit.app/
 ---
 
 ## 📬 Contact
